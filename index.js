@@ -19,7 +19,7 @@ else{
 }
 
 function currentLine(katzDeliLine){
-  var i
+  var i=0
   if(!katzDeliLine.length){
         return "The line is currently empty."
   }
