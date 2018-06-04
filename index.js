@@ -19,6 +19,13 @@ else{
 }
 
 function currentLine(katzDeliLine){
+  if(!katzDeliLine){
+        return "The line is currently empty."
+  }
+  else{
+    
+  do{
+  }
 var i
 if (katzDeliLine.length>0){
   for (i=0;i<katzDeliLine.length;i++){
@@ -26,6 +33,6 @@ if (katzDeliLine.length>0){
   }
 }
   else {
-    return "The line is currently empty."
+
   }
 }
