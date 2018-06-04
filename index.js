@@ -9,6 +9,10 @@ function takeANumber(katzDeliLine,newName){
 }
 
 function nowServing(katzDeliLine){
+  if(!katzDeliLine){
+    return
+  }
+  
   var i=0
   while (i<katzDeliLine.length){
   if(katzDeliLine.length>0){
